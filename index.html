@@ -1,0 +1,595 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+
+            <div class="top-left">
+                <div class="menu-gmail">
+                    <div class="main-menu">
+                        <svg focusable="false" viewBox="0 0 24 24">
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                        </svg>
+                    </div>
+                    <div class="logo">
+                        <img class="gb_Pd"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png"
+                            srcset="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png 1x, https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r5.png 2x "
+                            alt="" aria-hidden="true" role="presentation" style="width:109px;height:40px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-mid">
+                <div class="search-section">
+                    <form action="">
+                        <button class="search-icon" type="submit">
+                            <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z">
+                                </path>
+                                <path d="M0,0h24v24H0V0z" fill="none"></path>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search mail">
+                        <button class="filter-icon" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="search-icons">
+                    <div class="accessibility">
+                        <svg class="t7" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                            viewBox="0 0 24 24" fill="#000000" focusable="false">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="accessibility">
+                        <svg class="Xy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27 1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-2.03 1.58 1.38 2.4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z">
+                            </path>
+                            <circle cx="12" cy="12" r="3.5"></circle>
+                        </svg>
+                    </div>
+                    <div class="gemini">
+                        <svg class="c7" viewBox="0 -960 960 960" height="28" width="28"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M480-80q-6,0-11-4t-7-10q-17-67-51-126T328-328T220-411T94-462q-6-2-10-7t-4-11t4-11t10-7q67-17 126-51t108-83t83-108t51-126q2-6 7-10t11-4t10.5,4t6.5,10q18,67 52,126t83,108t108,83t126,51q6,2 10,7t4,11t-4,11t-10,7q-67,17-126,51T632-328T549-220T498-94q-2,6-7,10t-11,4Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-icons">
+                <div class="user">
+                    <svg class="dots" class="gb_F" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                        <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24"
+                            style="border:none;display:none \9"></image>
+                    </svg>
+                </div>
+                <div class="user">
+                    <img src="https://lh3.googleusercontent.com/ogw/AF2bZyh5cd9d0_x4Z-weGy3pFf4OcbW22r4dJyYYan3BjG9xoA=s32-c-mo"
+                        alt="user">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="side-nav">
+
+            <div class="compose-main-container">
+                <div class="compose-container">
+                    <div class="pen-icon">
+                        <img src="	https://www.gstatic.com/images/icons/material/system_gm/2x/create_black_24dp.png"
+                            alt="pen-icon" width="20" height="20">
+                    </div>
+                    <div class="compose-span">
+                        <a href="#compose">Compose</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="operations">
+                <div class="main-op">
+                    <div class="op-item inbox">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/inbox_fill_baseline_p900_20dp.png"
+                            alt="inbox">
+                        <a href="#inbox">Inbox</a>
+                        <span
+                            style="font-size: 12px; margin-left: 113px; font-weight: bold; letter-spacing: 1px;">63</span>
+                    </div>
+                    <div class="op-item starred">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                            alt="star">
+                        <a href="#starred">Starred</a>
+                    </div>
+                    <div class="op-item snoozed">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/schedule_baseline_nv700_20dp.png"
+                            alt="snoozed">
+                        <a href="#">Snoozed</a>
+                    </div>
+                    <div class="op-item sent">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/send_baseline_nv700_20dp.png"
+                            alt="send">
+                        <a href="#">Sent</a>
+                    </div>
+                    <div class="op-item draft">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/draft_baseline_nv700_20dp.png"
+                            alt="draft">
+                        <a href="#">Drafts</a>
+                    </div>
+                    <div class="op-item more">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/expand_more_baseline_nv700_20dp.png"
+                            alt="more">
+                        <a href="more">More</a>
+                    </div>
+                    <div class="label">
+                        <a>Labels</a>
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/add_large_baseline_nv700_20dp.png"
+                            alt="drop-down">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contents">
+
+            <div class="content-head">
+
+                <div class="content-head-left">
+                    <div class="box">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                            alt="square">
+                    </div>
+                    <div class="down-arrow">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/arrow_drop_down_baseline_nv700_20dp.png"
+                            alt="downarrow">
+                    </div>
+                    <div class="refresh">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/refresh_baseline_nv700_20dp.png"
+                            alt="refresh">
+                    </div>
+                    <div class="dot-menu">
+                        <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/more_vert_baseline_nv700_20dp.png"
+                            alt="dot">
+                    </div>
+                </div>
+
+                <div class="content-head-right">
+                    <span><b>1</b>-50 of 66</span>
+                    <div class="arrow-left">
+                        <img style="fill: transparent;"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/chevron_left_baseline_nv700_20dp.png"
+                            alt="left-arrow">
+                    </div>
+                    <div class="arrow-right">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/chevron_right_baseline_nv700_20dp.png"
+                            alt="right-arrow">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-main">
+                <div class="tabs">
+
+                    <div class="primary tab-titles">
+                        <div class="tab-img">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/inbox_fill_baseline_p600_20dp.png"
+                                alt="primary">
+                        </div>
+                        <span style="color: #0b57d0;">Primary</span>
+                    </div>
+
+                    <div class="tab-titles">
+                        <div class="tab-img">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/sell_baseline_nv700_20dp.png"
+                                alt="promotions">
+                        </div>
+                        <div class="tab-info">
+                            <div class="tab-top">
+                                <span class="tab-text">Promotions</span>
+                                <button>45new</button>
+                            </div>
+                            <span class="sp">Quizlet</span>
+                        </div>
+                    </div>
+
+                    <div class="tab-titles">
+                        <div class="tab-img">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/group_baseline_nv700_20dp.png"
+                                alt="social">
+                        </div>
+                        <div class="tab-info">
+                            <div class="tab-top">
+                                <span>Social</span>
+                                <button>2new</button>
+                            </div>
+                            <span class="sp">bbclearning</span>
+                        </div>
+                    </div>
+
+                    <div class="tab-titles">
+                        <div class="tab-img">
+                            <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/info_baseline_nv700_20dp.png"
+                                alt="updates">
+                        </div>
+                        <span>Updates</span>
+                    </div>
+
+                </div>
+                <div class="messagess">
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+                    <div class="messages">
+                        <div class="msg-first">
+                            <div class="msg-box">
+                                <img src="	https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                    alt="square">
+                            </div>
+                            <div class="msg-star">
+                                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                                    alt="star">
+                            </div>
+                            <span style="font-weight: 700; color: #202124">Brilliant</span>
+                        </div>
+                        <div class="msg-mid">
+                            <strong>It's worth the wait</strong>
+                            <span style="color:#576368" class="overflow-text">- We have lots of new lessons to check
+                                out</span>
+                        </div>
+                        <div class="space"></div>
+                        <span class="date" style="font-weight: 700; font-size: 12px;">10:50AM</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="help">
+            <img src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png" alt="calendar">
+            <img src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png" alt="google-notes">
+            <img src="	https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png" alt="to-do">
+            <img src="	https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png" alt="contacts">
+            <div></div>
+            <img src="https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png"
+                alt="add-more">
+        </div>
+
+    </main>
+
+</body>
+
+</html>
