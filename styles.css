@@ -585,9 +585,9 @@ main {
         .search-section {
             flex: 1;
         }
-    /* .content-head-right {
+    .content-head-right {
         margin-right: 328px;
-    } */
+    }
 
     .messages .overflow-text {
         margin-left: -11px;
