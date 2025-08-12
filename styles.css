@@ -60,7 +60,7 @@ header {
 .main-menu svg {
     width: 24px;
     height: 24px;
-    fill: grey;
+    fill: rgb(90, 90, 91);
 }
 
 .logo img {
@@ -580,6 +580,7 @@ main {
     }
     .content-head {
         flex: 1;
+        width: 100%;
     }
         .search-section {
             flex: 1;
